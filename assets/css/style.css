@@ -1,0 +1,498 @@
+/*Dependencies : Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://gistcdn.githack.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css');
+
+
+/*Body*/
+body{
+       background-color: #F8FFFB;
+       padding-top: 5rem;
+}
+
+
+/*Main Heading Section*/ 
+.header {
+        margin-bottom: 42px;
+}
+
+
+/*First Header*/
+.heading-title {
+        color: #181818;
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        margin-bottom:1.5rem; 
+}
+
+.heading-title div{
+        text-align: center;
+}
+
+
+/*Header vertical slider*/
+.gradient-bg{
+        background: linear-gradient(90.57deg, #0DC269 18.41%, #007A3E 45.72%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        font-weight: bold;
+}
+
+.slide-up {
+    animation: slidesUp 8s infinite;
+    will-change: transofrm;
+    animation-delay: 3s;
+    text-align:left !important;
+}
+
+@keyframes slidesUp {
+    0% {
+        transform: translateY(0)
+}
+20% {
+        transform: translateY(-100%)
+}
+40% {
+        transform: translateY(-200%)
+}
+60% {
+        transform: translateY(-300%)
+}
+80% {
+        transform: translateY(-400%)
+}
+to {
+        transform: translateY(0)
+}
+}
+
+.inline-flex {
+    display: inline-flex;
+    max-height:48px;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+
+/*Subheader*/
+.sub-title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #7D7D7D;
+        max-width: 67%;
+        margin: 0 auto;
+        margin-bottom: 1.5rem;
+
+}
+
+
+/*Arrow icon*/
+.arrowIcon {
+        position: relative;
+}
+
+
+/*Sign Up and Watch Demo buttons*/
+.primary-btn {
+        width: 218px;
+        height: 64px;
+        background: #0DC269;
+        mix-blend-mode: normal;
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.12), 0px 0px 1px rgba(0, 0, 0, 0.08);
+        border-radius: 4px;
+        color: #fff;
+        margin-right: 20px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 64px;
+        text-align: center;
+        color: #FFFFFF;
+        text-decoration: none;
+
+}
+
+.primary-btn.bottom{
+        margin:0 auto !important;
+        margin-right:0px;
+        display:block;
+        margin-bottom:50px !important; 
+        margin-top:20px !important; 
+}
+
+.secondary {
+        width: 218px;
+        height: 64px;
+        background: #FFFFFF;
+        mix-blend-mode: normal;
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.12), 0px 0px 1px rgba(0, 0, 0, 0.08);
+        border-radius: 4px;
+        color: #0DC269;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 64px;
+        text-decoration: none;
+}
+
+.primary-btn:hover {
+        color: #fff !important;
+        text-decoration: none !important;
+}
+
+.secondary:hover {
+        color: #0DC269 !important;
+        text-decoration: none !important;
+}
+
+.btn-lg {
+        padding: 0 !important;
+
+}
+
+.playbut{
+        text-align:center;
+}
+
+
+
+/*Watch Demo: Play svg*/
+.play {
+        color: #0DC269;
+}
+
+
+/*Arrow icon*/
+.arrow {
+        position: absolute;
+        margin-left: -130px !important;
+        margin-top: -4px;
+}
+
+
+/*Small free trial text*/
+.small-text {
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: #5C5C5C;
+        margin-top: 20px;
+}
+
+
+/* Main Slider  */
+
+.carousel-item.active{
+        display:flex; 
+        visibility:visible;
+}
+
+.carousel-item{
+        visibility:hidden;
+        display:flex !important;
+        height:100%; 
+}
+
+.col h5 {
+        color: #333 !important;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+}
+
+.col p {
+        color: #828282 !important;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+}
+
+.box {
+        width: 230px;
+        height: auto;
+        background: #FFFFFF;
+        box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.05);
+        border-radius: 12px;
+        margin-top: 30px;
+
+}
+
+.box p {
+        font-family: 'Inter';
+        font-style: italic;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        color: #575757;
+        padding: 10px 0;
+}
+
+.carousel-inner {
+        background: #FFFFFF;
+        box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.03);
+        border-radius: 4px;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+}
+
+.carousel-indicators {
+        bottom: -50px !important;
+}
+
+.carousel-indicators li {
+        box-sizing: content-box;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        width: 8px;
+        height: 8px;
+        margin-right: 10px;
+        margin-left: 3px;
+        text-indent: -999px;
+        cursor: pointer;
+        background-color: #0DC269;
+        background-clip: padding-box;
+        border-top: 0px solid transparent;
+        border-bottom: 0px solid transparent;
+        opacity: .5;
+        transition: opacity .6s ease;
+        border-radius: 50px !important;
+}
+
+.carousel-control-prev {
+        background: #FFFFFF;
+        width: 70px;
+        height: 70px;
+        border-radius: 50px;
+        color: #0DC269 !important;
+        box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.05);
+        position: absolute;
+        top: 40%;
+        left: 7%;
+}
+
+.carousel-control-next {
+        background: #FFFFFF;
+        width: 70px;
+        height: 70px;
+        border-radius: 50px;
+        color: #0DC269 !important;
+        box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.05);
+        position: absolute;
+        top: 40%;
+        right: 7%;
+}
+
+.carousel-control-prev-icon {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-arrow-left' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8'/%3E%3C/svg%3E");
+        background-repeat: no-repeat no-repeat;
+        background-position: center center;
+        background-size: cover;
+        color: #E1E1E1;
+        width: 34px;
+
+}
+
+.carousel-control-prev-icon:hover {
+        color: #0DC269 !important;
+}
+
+.carousel-control-next-icon {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-arrow-right' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8'/%3E%3C/svg%3E");
+        background-repeat: no-repeat no-repeat;
+        background-position: center center;
+        background-size: cover;
+        color: #E1E1E1;
+        width: 34px;
+
+}
+
+.carousel-control-next-icon:hover {
+        color: #0DC269 !important;
+}
+
+.carousel-img img{
+/*        width:100%;*/
+/*        max-height:100%;*/
+padding-top:10px;
+padding-bottom:10px;
+}
+
+.active {
+        color: #0DC269 !important;
+}
+
+
+/*Feature cards*/
+.cards {
+        width: 29%;
+        height: 244px;
+        box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.03);
+        border-radius: 4px;
+        padding: 24px;
+        background-color: #FFFFFF;
+        margin:1rem;
+}
+
+.icons {
+        width: 49px;
+        height: 49px;
+        background: rgba(194, 13, 56, 0.1);
+        border-radius: 4px;
+        line-height: 49px;
+        text-align: center;
+}
+
+.webicon {
+        color: #C20D38;
+}
+
+.signupicon {
+        color: #0D4BC2;
+}
+
+.subicon {
+        color: #AF48FF;
+}
+
+.card-body .heading-title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        margin-top: 16px;
+}
+
+.card-body .paragraph {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color: #828282;
+}
+
+.card-body{
+        padding:0;
+}
+
+.card-deck {
+        margin-top: 64px;
+}
+
+
+
+/*Responsiveness*/
+
+/*Smaller Devices*/
+
+@media only screen and (max-width: 800px) {
+
+ .cards {
+        width: 50%; 
+}
+
+.col{
+        flex-basis:unset !important;
+}
+
+.carousel-text{
+        text-align:center;
+        padding-top:30px; 
+}
+
+.carousel-img img{
+        max-width:100%;
+}
+
+.box{
+        display:block;
+        margin:0 auto;
+}
+
+.carousel-inner {
+/*        height: 620px !important;*/
+}
+
+.carousel-item {
+        margin-left:0px;
+}
+
+br{
+        display:none;
+}
+
+.sub-title{
+        max-width:unset; 
+}
+}
+
+
+/*Bigger Devices*/
+@media only screen and (min-width: 800px) {
+
+        .carousel-text{
+                padding:95px;
+        }
+
+        .carousel-inner {
+                background: #FFFFFF;
+                box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.03);
+                border-radius: 4px;
+                width: 80%;
+                height: auto;
+                margin: 0 auto;
+        }
+
+        .imgwrap{
+                max-height:360px !important;
+                max-width:376px !important;
+        }
+
+        .carousel-img img{
+                height:100%;
+                width:100%;
+        }
+
+        #ebook, #discount{
+                margin-top: 70px; 
+        }
+
+}
+
+
+/*Hide green arrow on mobile*/
+@media only screen and (max-width: 700px) {
+ .arrow {
+        display:none;
+}
+}
+
+
+
